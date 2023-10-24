@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div class="container">
-		<div id="buttons"></div>
-		<div id="messages"></div>
-	</div>
-	<script src="js/functions.js"></script>
-	<script src="js/script.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Signika+Negative:wght@700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Papier, kamień, nożyce</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="title"></div>
+				<h1>Papier, kamień, nożyce</h1>
+				<p>
+					W każdej turze obydwaj gracze (Ty i komputer), wybierają jeden guzik:
+					papier, kamień, nożyce. Gracz, który pokazał silniejszy symbol, otrzymuje
+					jeden punkt. W przypadku pokazania dwóch takich samych symboli następuje
+					remis – punktu brak. </p>
+			</div>
+		</div>
+
+		<div class="button">
+			<div id="buttons">
+				<button id="button-rock">Kamień</button>
+				<button id="button-paper">Papier</button>
+				<button id="button-scissors">Nożyce</button>
+			</div>
+			<div id="messages"></div>
+		</div>
+		<script src="js/functions.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>
